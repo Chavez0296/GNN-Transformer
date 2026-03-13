@@ -1,0 +1,4 @@
+*.pkl
+__pycache__/
+/results/gps_artifacts/data_augmentation/
+/results/gps_artifacts/aug_smoke
