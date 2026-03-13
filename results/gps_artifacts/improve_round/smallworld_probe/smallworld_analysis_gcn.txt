@@ -1,0 +1,26 @@
+SMALL-WORLD PERTURBATION PROBE ANALYSIS
+============================================================
+
+HYPOTHESIS:
+Adding random shortcuts should help baseline GNNs more than
+transformers, because baseline GNNs rely on edge structure
+while transformers already have global attention.
+
+RESULTS:
+  Baseline (no shortcuts): F1 = 0.5042
+  Transformer (no shortcuts): F1 = 0.5290
+
+  At 0.1 shortcuts/node:
+    Baseline improvement: +0.0507
+    Transformer improvement: -0.0343
+    Difference (baseline - transformer): +0.0850
+
+  At 0.2 shortcuts/node:
+    Baseline improvement: +0.0299
+    Transformer improvement: -0.0026
+    Difference (baseline - transformer): +0.0326
+
+CONCLUSION:
+  HYPOTHESIS SUPPORTED: Baseline improves more from shortcuts than transformer.
+  This suggests baseline benefits from structural shortcuts because it lacks
+  the global attention that transformers have built-in.
