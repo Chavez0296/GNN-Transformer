@@ -1,0 +1,7 @@
+candidate_id,model,global_attn,variant,source,status,n_seeds,f1_mean,f1_std,auc_mean,auc_std,stability_score,notes
+s2_gatedgraph_performer_seed5,gatedgraph,performer,gps,s2_gatedgraph_ab,accepted,5,0.5748288,0.041054799696990336,0.7124444,0.028569575345811497,0.5543014001515049,Lower-LR/dropout A/B run; performer improves AUC while F1 remains slightly below baseline-none.
+s3_sage_performer_seed5,sage,performer,gps,s3_auc_tune_confirm,accepted,5,0.5970344,0.039626778383310454,0.6960298,0.060560971925490106,0.5772210108083448,"AUC-focused tuning confirm; attn_dropout=0.1, weight_decay=0.0001."
+s3_gin_performer_seed5,gin,performer,gps,s3_auc_tune_confirm,accepted,5,0.5983938,0.03983511721785187,0.690489,0.0583381774175368,0.578476241391074,"AUC-focused tuning confirm; attn_dropout=0.05, weight_decay=0.0001."
+s3_gcn_multihead_seed5,gcn,multihead,gps,s3_auc_tune_confirm,accepted,5,0.6359268,0.035602322156848165,0.6852739999999999,0.03080310888855214,0.6181256389215759,"AUC-focused tuning confirm; attn_dropout=0.2, weight_decay=0.001."
+gps_pna_seed10,pna,as-run,gps,initial_gps_seed_stability,accepted_reference,10,0.5918017,0.04363735728260822,0.6852294999999999,0.03553895318449883,0.5699830213586958,Final selection seed protocol reference.
+gps_gine_seed10,gine,as-run,gps,initial_gps_seed_stability,accepted_reference,10,0.5727539,0.04518570502592606,0.6699704999999999,0.03606658376184249,0.550161047487037,Final selection seed protocol reference.

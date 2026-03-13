@@ -1,0 +1,2 @@
+local_gnn,global_attn,lap_pe_dim,lap_pe_encoder,rwse_dim,rwse_encoder,out_dir,accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std,roc_auc_mean,roc_auc_std
+sage,multihead,0,raw,0,raw,gps_artifacts\graph_level\sage\20260207_141646_777775__multihead__sage_multihead_lap0_rwse0,0.5046230440967283,0.15327169274537697,0.3284126984126984,0.0684126984126984,0.5212179487179487,0.0012179487179487247

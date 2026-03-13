@@ -1,0 +1,2 @@
+accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std,roc_auc_mean,roc_auc_std
+0.640000,0.080000,0.607649,0.069231,0.624000,0.085229

@@ -1,0 +1,7 @@
+candidate_id,model,global_attn,variant,source,status,n_seeds,f1_mean,f1_std,auc_mean,auc_std,stability_score,notes
+s3_gcn_multihead_seed5,gcn,multihead,gps,s3_auc_tune_confirm,accepted,5,0.6359268,0.035602322156848165,0.6852739999999999,0.03080310888855214,0.6181256389215759,"AUC-focused tuning confirm; attn_dropout=0.2, weight_decay=0.001."
+s5_pna_performer_seed5,pna,performer,gps,s5_pna_gine_confirm,accepted,5,0.634126,0.06729299419404665,0.6760295999999999,0.06495823873720713,0.6004795029029767,Post-improvement confirmation run.
+s3_gin_performer_seed5,gin,performer,gps,s3_auc_tune_confirm,accepted,5,0.5983938,0.03983511721785187,0.690489,0.0583381774175368,0.578476241391074,"AUC-focused tuning confirm; attn_dropout=0.05, weight_decay=0.0001."
+gps_sage_seed10,sage,as-run,gps,initial_gps_seed_stability,accepted_reference,10,0.5983653,0.040149144227617097,0.6529332999999999,0.045722044807838584,0.5782907278861914,Final selection seed protocol reference.
+baseline_gatedgraph_seed10,gatedgraph,none,baseline,baseline_seed_stability,accepted_reference,10,0.5931436999999999,0.06033420676374223,0.6830074,0.07591880479459619,0.5629765966181288,Final selection seed protocol reference.
+s5_gine_multihead_seed5,gine,multihead,gps,s5_pna_gine_confirm,accepted,5,0.5803606,0.053882727268021596,0.653215,0.06401191223202134,0.5534192363659892,Post-improvement confirmation run.

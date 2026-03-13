@@ -1,0 +1,2 @@
+accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std,roc_auc_mean,roc_auc_std,val_thr_mean,val_thr_std,val_thr_f1_mean,val_thr_f1_std
+0.626667,0.067987,0.580166,0.062594,0.617037,0.044284,0.526000,0.281183,0.877274,0.049963

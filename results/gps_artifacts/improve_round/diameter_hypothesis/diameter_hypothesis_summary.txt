@@ -1,0 +1,62 @@
+DIAMETER HYPOTHESIS PROBE RESULTS
+======================================================================
+
+HYPOTHESIS: Transformer attention helps more on graphs with larger
+estimated diameter, because larger diameter implies longer paths
+where local message passing takes more hops to propagate information.
+
+SUMMARY STATISTICS:
+  baseline_low_f1_mean: 0.4497
+  baseline_low_f1_std: 0.1358
+  baseline_low_n: 5
+  baseline_mid_f1_mean: 0.5937
+  baseline_mid_f1_std: 0.2224
+  baseline_mid_n: 5
+  baseline_high_f1_mean: 0.2774
+  baseline_high_f1_std: 0.1505
+  baseline_high_n: 5
+  transformer_low_f1_mean: 0.5238
+  transformer_low_f1_std: 0.2148
+  transformer_low_n: 5
+  transformer_mid_f1_mean: 0.4413
+  transformer_mid_f1_std: 0.1219
+  transformer_mid_n: 5
+  transformer_high_f1_mean: 0.3246
+  transformer_high_f1_std: 0.1827
+  transformer_high_n: 5
+
+HYPOTHESIS TESTS:
+
+  Transformer vs Baseline on HIGH diameter:
+    transformer_mean: 0.3246
+    baseline_mean: 0.2774
+    difference: 0.0472
+    t_statistic: 0.3990
+    p_value: 0.7007
+    significant_0.10: False
+    direction: transformer_better
+
+  Transformer vs Baseline on LOW diameter:
+    transformer_mean: 0.5238
+    baseline_mean: 0.4497
+    difference: 0.0740
+    t_statistic: 0.5826
+    p_value: 0.5791
+    significant_0.10: False
+    direction: transformer_better
+
+  Interaction: Transformer improvement HIGH vs LOW diameter:
+    improvement_on_high: 0.0472
+    improvement_on_low: 0.0740
+    interaction_effect: -0.0268
+    bootstrap_mean: -0.0309
+    ci_90_low: -0.2877
+    ci_90_high: 0.2208
+    hypothesis_supported: False
+    interpretation: NO evidence transformer helps more on high-diameter graphs
+
+
+CONCLUSION:
+  NO evidence transformer helps more on high-diameter graphs
+  Interaction effect: -0.0268
+  90% CI: [-0.2877, 0.2208]

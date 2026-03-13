@@ -1,0 +1,11 @@
+global_attn,seed,returncode,accuracy_mean,accuracy_std,f1_macro_mean,f1_macro_std,roc_auc_mean,roc_auc_std,summary_path
+none,101,0,0.706667,0.090431,0.581544,0.174140,0.724148,0.118274,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_150659_304253__none\gps_summary_20260311_150659_304253.csv
+none,102,0,0.653333,0.077746,0.579854,0.103405,0.654074,0.186392,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_150736_262078__none\gps_summary_20260311_150736_262078.csv
+none,103,0,0.706667,0.090431,0.605042,0.145849,0.760148,0.135625,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_150811_257046__none\gps_summary_20260311_150811_257046.csv
+none,104,0,0.733333,0.042164,0.665918,0.046921,0.698815,0.090167,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_150850_856723__none\gps_summary_20260311_150850_856723.csv
+none,105,0,0.613333,0.135974,0.453665,0.134938,0.642667,0.129724,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_150927_890311__none\gps_summary_20260311_150927_890311.csv
+performer,101,0,0.613333,0.026667,0.525166,0.077478,0.705037,0.047524,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_151004_899497__performer\gps_summary_20260311_151004_899497.csv
+performer,102,0,0.666667,0.073030,0.619755,0.056578,0.744444,0.066056,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_151135_319385__performer\gps_summary_20260311_151135_319385.csv
+performer,103,0,0.666667,0.126491,0.627567,0.109128,0.725926,0.182861,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_151252_991229__performer\gps_summary_20260311_151252_991229.csv
+performer,104,0,0.600000,0.111555,0.548668,0.136767,0.725778,0.174280,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_151419_579695__performer\gps_summary_20260311_151419_579695.csv
+performer,105,0,0.666667,0.146059,0.552988,0.195661,0.661037,0.159643,gps_work/results/gps_artifacts/improve_round/s2_gatedgraph_ab\graph_level\gatedgraph\20260311_151550_541478__performer\gps_summary_20260311_151550_541478.csv
